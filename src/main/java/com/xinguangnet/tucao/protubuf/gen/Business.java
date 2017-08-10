@@ -34,7 +34,7 @@ public class Business {
             File destFile = Paths.get(destinationFile).toFile();
 
 
-            int initialCapacityOfList = 100;
+            int initialCapacityOfList = 1000;
             List<String> protoLines = new ArrayList<>(initialCapacityOfList);
             while (orderNoLines.hasNext()) {
 
